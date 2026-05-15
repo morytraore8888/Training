@@ -40,4 +40,4 @@
 # debug information files
 *.dwo
 #Annuler l'envoi des fichiers qui ont l'extension
-.Mory
+*.vscode

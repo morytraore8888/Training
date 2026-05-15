@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    // Devoir traité par Mory Traore avec les smart pointer
+    // Devoir de Mory Traore avec les smart pointer
     auto nb = make_unique<int>();
     auto som = make_unique<int>(0);
     auto UnPair = make_unique<bool>(false); //J'ai utilisé le booleen pour considerer 0 comme un chiffre pair dans un nombre composé des chiffres impairs
@@ -45,7 +45,7 @@ int main()
         (nombre) /= 10;
       }
     }   
-if((*UnPair)) cout << "Le nombre " << (*nb) << " contient au moins un chiffre pair donc c'est propair \n";
+    if((*UnPair)) cout << "Le nombre " << (*nb) << " contient au moins un chiffre pair donc c'est propair \n";
     else cout << (*nb) << " n'est pas propair \n";
     return 0;
 }
